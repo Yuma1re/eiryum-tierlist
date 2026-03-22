@@ -1,0 +1,1145 @@
+{
+  "meta": {
+    "game": "Mobile Legends",
+    "patch": "1.9.12",
+    "updated_at": "27-12-2025"
+  },
+
+  "tiers": ["S+", "S", "A", "B", "C", "D"],
+
+  "roles": ["exp", "gold", "mid", "jungle", "roam"],
+
+  "heroes": [
+    {
+      "id": "sora",
+      "name": "Sora",
+      "image": "sora.webp",
+      "roles": {
+        "exp": "A"
+      }
+    },
+    {
+      "id": "obsidia",
+      "name": "Obsidia",
+      "image": "obsidia.webp",
+      "roles": {
+        "gold": "A"
+      }
+    },
+    {
+      "id": "zetian",
+      "name": "Zetian",
+      "image": "zetian.webp",
+      "roles": {
+        "mid": "S"
+      }
+    },
+    {
+      "id": "kalea",
+      "name": "Kalea",
+      "image": "kalea.webp",
+      "roles": {
+        "roam": "S+"
+      }
+    },
+    {
+      "id": "lukas",
+      "name": "Lukas",
+      "image": "lukas.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "A"
+      }
+    },
+    {
+      "id": "suyou",
+      "name": "Suyou",
+      "image": "suyou.webp",
+      "roles": {
+        "exp": "D",
+        "jungle": "S+"
+      }
+    },
+    {
+      "id": "zhuxin",
+      "name": "Zhuxin",
+      "image": "zhuxin.webp",
+      "roles": {
+        "mid": "S+"
+      }
+    },
+    {
+      "id": "chip",
+      "name": "Chip",
+      "image": "chip.webp",
+      "roles": {
+        "roam": "S"
+      }
+    },
+    {
+      "id": "cici",
+      "name": "Cici",
+      "image": "cici.webp",
+      "roles": {
+        "exp": "S",
+        "gold": "S+"
+      }
+    },
+    {
+      "id": "nolan",
+      "name": "Nolan",
+      "image": "nolan.webp",
+      "roles": {
+        "jungle": "A"
+      }
+    },
+    {
+      "id": "ixia",
+      "name": "Ixia",
+      "image": "ixia.webp",
+      "roles": {
+        "gold": "S"
+      }
+    },
+    {
+      "id": "arlott",
+      "name": "Arlott",
+      "image": "arlott.webp",
+      "roles": {
+        "exp": "S+",
+        "roam": "B"
+      }
+    },
+    {
+      "id": "novaria",
+      "name": "Novaria",
+      "image": "novaria.webp",
+      "roles": {
+        "mid": "A"
+      }
+    },
+    {
+      "id": "joy",
+      "name": "Joy",
+      "image": "joy.webp",
+      "roles": {
+        "jungle": "S+"
+      }
+    },
+    {
+      "id": "fredrinn",
+      "name": "Fredrinn",
+      "image": "fredrinn.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "S+"
+      }
+    },
+    {
+      "id": "julian",
+      "name": "Julian",
+      "image": "julian.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "A"
+      }
+    },
+    {
+      "id": "xavier",
+      "name": "Xavier",
+      "image": "xavier.webp",
+      "roles": {
+        "mid": "S"
+      }
+    },
+    {
+      "id": "melissa",
+      "name": "Melissa",
+      "image": "melissa.webp",
+      "roles": {
+        "gold": "A"
+      }
+    },
+    {
+      "id": "yin",
+      "name": "Yin",
+      "image": "yin.webp",
+      "roles": {
+        "exp": "D",
+        "jungle": "C"
+      }
+    },
+    {
+      "id": "floryn",
+      "name": "Floryn",
+      "image": "floryn.webp",
+      "roles": {
+        "roam": "S"
+      }
+    },
+    {
+      "id": "edith",
+      "name": "Edith",
+      "image": "edith.webp",
+      "roles": {
+        "exp": "B",
+        "roam": "B"
+      }
+    },
+    {
+      "id": "valentina",
+      "name": "Valentina",
+      "image": "valentina.webp",
+      "roles": {
+        "mid": "S",
+        "roam": "D"
+      }
+    },
+    {
+      "id": "aamon",
+      "name": "Aamon",
+      "image": "aamon.webp",
+      "roles": {
+        "jungle": "S"
+      }
+    },
+    {
+      "id": "aulus",
+      "name": "Aulus",
+      "image": "aulus.webp",
+      "roles": {
+        "exp": "D",
+        "jungle": "D"
+      }
+    },
+    {
+      "id": "natan",
+      "name": "Natan",
+      "image": "natan.webp",
+      "roles": {
+        "jungle": "D",
+        "gold": "S"
+      }
+    },
+    {
+      "id": "phoveus",
+      "name": "Phoveus",
+      "image": "phoveus.webp",
+      "roles": {
+        "exp": "S+"
+      }
+    },
+    {
+      "id": "beatrix",
+      "name": "Beatrix",
+      "image": "beatrix.webp",
+      "roles": {
+        "gold": "A"
+      }
+    },
+    {
+      "id": "gloo",
+      "name": "Gloo",
+      "image": "gloo.webp",
+      "roles": {
+        "exp": "S",
+        "roam": "A"
+      }
+    },
+    {
+      "id": "paquito",
+      "name": "Paquito",
+      "image": "paquito.webp",
+      "roles": {
+        "exp": "B",
+        "jungle": "C"
+      }
+    },
+    {
+      "id": "mathilda",
+      "name": "Mathilda",
+      "image": "mathilda.webp",
+      "roles": {
+        "roam": "S",
+        "mid": "C"
+      }
+    },
+    {
+      "id": "yve",
+      "name": "Yve",
+      "image": "yve.webp",
+      "roles": {
+        "mid": "S+"
+      }
+    },
+    {
+      "id": "brody",
+      "name": "Brody",
+      "image": "brody.webp",
+      "roles": {
+        "gold": "A"
+      }
+    },
+    {
+      "id": "barats",
+      "name": "Barats",
+      "image": "barats.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "S"
+      }
+    },
+    {
+      "id": "khaleed",
+      "name": "Khaleed",
+      "image": "khaleed.webp",
+      "roles": {
+        "exp": "B",
+        "roam": "S"
+      }
+    },
+    {
+      "id": "benedetta",
+      "name": "Benedetta",
+      "image": "benedetta.webp",
+      "roles": {
+        "exp": "B",
+        "jungle": "A"
+      }
+    },
+    {
+      "id": "luoyi",
+      "name": "Luo Yi",
+      "image": "luoyi.webp",
+      "roles": {
+        "mid": "A"
+      }
+    },
+    {
+      "id": "yuzhong",
+      "name": "Yu Zhong",
+      "image": "yuzhong.webp",
+      "roles": {
+        "exp": "S+"
+      }
+    },
+    {
+      "id": "popolandkupa",
+      "name": "Popol and Kupa",
+      "image": "popolandkupa.webp",
+      "roles": {
+        "gold": "C",
+        "jungle": "B"
+      }
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "image": "atlas.webp",
+      "roles": {
+        "roam": "A"
+      }
+    },
+    {
+      "id": "carmilla",
+      "name": "Carmilla",
+      "image": "carmilla.webp",
+      "roles": {
+        "exp": "B",
+        "jungle": "D"
+      }
+    },
+    {
+      "id": "cecilion",
+      "name": "Cecilion",
+      "image": "cecilion.webp",
+      "roles": {
+        "gold": "C",
+        "mid": "S+"
+      }
+    },
+    {
+      "id": "silvanna",
+      "name": "Silvanna",
+      "image": "silvanna.webp",
+      "roles": {
+        "exp": "C",
+        "roam": "D",
+        "jungle": "D"
+      }
+    },
+    {
+      "id": "wanwan",
+      "name": "Wanwan",
+      "image": "wanwan.webp",
+      "roles": {
+        "gold": "S"
+      }
+    },
+    {
+      "id": "masha",
+      "name": "Masha",
+      "image": "masha.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "C",
+        "roam": "D"
+      }
+    },
+    {
+      "id": "baxia",
+      "name": "Baxia",
+      "image": "baxia.webp",
+      "roles": {
+        "exp": "B",
+        "roam": "S",
+        "jungle": "S+"
+      }
+    },
+    {
+      "id": "lylia",
+      "name": "Lylia",
+      "image": "lylia.webp",
+      "roles": {
+        "mid": "S"
+      }
+    },
+    {
+      "id": "dyrroth",
+      "name": "Dyrroth",
+      "image": "dyrroth.webp",
+      "roles": {
+        "exp": "A",
+        "jungle": "D"
+      }
+    },
+    {
+      "id": "ling",
+      "name": "Ling",
+      "image": "ling.webp",
+      "roles": {
+        "jungle": "A"
+      }
+    },
+    {
+      "id": "xborg",
+      "name": "X.borg",
+      "image": "xborg.webp",
+      "roles": {
+        "exp": "S",
+        "jungle": "B"
+      }
+    },
+    {
+      "id": "terizla",
+      "name": "Terizla",
+      "image": "terizla.webp",
+      "roles": {
+        "exp": "S"
+      }
+    },
+    {
+      "id": "esmeralda",
+      "name": "Esmeralda",
+      "image": "esmeralda.webp",
+      "roles": {
+        "exp": "S",
+        "gold": "S",
+        "jungle": "C"
+      }
+    },
+    {
+      "id": "guinevere",
+      "name": "Guinevere",
+      "image": "guinevere.webp",
+      "roles": {
+        "exp": "A",
+        "jungle": "A",
+        "roam": "S"
+      }
+    },
+    {
+      "id": "granger",
+      "name": "Granger",
+      "image": "granger.webp",
+      "roles": {
+        "gold": "S+"
+      }
+    },
+    {
+      "id": "khufra",
+      "name": "Khufra",
+      "image": "khufra.webp",
+      "roles": {
+        "roam": "A"
+      }
+    },
+    {
+      "id": "badang",
+      "name": "Badang",
+      "image": "badang.webp",
+      "roles": {
+        "exp": "A",
+        "roam": "B"
+      }
+    },
+    {
+      "id": "faramis",
+      "name": "Faramis",
+      "image": "faramis.webp",
+      "roles": {
+        "mid": "S",
+        "roam": "D"
+      }
+    },
+    {
+      "id": "kadita",
+      "name": "Kadita",
+      "image": "kadita.webp",
+      "roles": {
+        "roam": "D",
+        "mid": "B"
+      }
+    },
+    {
+      "id": "minsitthar",
+      "name": "Minsitthar",
+      "image": "minsitthar.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "C"
+      }
+    },
+    {
+      "id": "harith",
+      "name": "Harith",
+      "image": "harith.webp",
+      "roles": {
+        "gold": "S+",
+        "mid": "C"
+      }
+    },
+    {
+      "id": "thamuz",
+      "name": "Thamuz",
+      "image": "thamuz.webp",
+      "roles": {
+        "exp": "A",
+        "jungle": "C"
+      }
+    },
+    {
+      "id": "kimmy",
+      "name": "Kimmy",
+      "image": "kimmy.webp",
+      "roles": {
+        "mid": "S+",
+        "gold": "B"
+      }
+    },
+    {
+      "id": "belerick",
+      "name": "Belerick",
+      "image": "belerick.webp",
+      "roles": {
+        "exp": "D",
+        "roam": "C"
+      }
+    },
+    {
+      "id": "hanzo",
+      "name": "Hanzo",
+      "image": "hanzo.webp",
+      "roles": {
+        "jungle": "B"
+      }
+    },
+    {
+      "id": "lunox",
+      "name": "Lunox",
+      "image": "lunox.webp",
+      "roles": {
+        "mid": "S+",
+        "gold": "B"
+      }
+    },
+    {
+      "id": "leomord",
+      "name": "Leomord",
+      "image": "leomord.webp",
+      "roles": {
+        "exp": "B",
+        "jungle": "S+"
+      }
+    },
+    {
+      "id": "vale",
+      "name": "Vale",
+      "image": "vale.webp",
+      "roles": {
+        "mid": "D"
+      }
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "image": "claude.webp",
+      "roles": {
+        "gold": "S+"
+      }
+    },
+    {
+      "id": "aldous",
+      "name": "Aldous",
+      "image": "aldous.webp",
+      "roles": {
+        "exp": "D",
+        "jungle": "D",
+        "gold": "D"
+      }
+    },
+    {
+      "id": "selena",
+      "name": "Selena",
+      "image": "selena.webp",
+      "roles": {
+        "mid": "S",
+        "roam": "C",
+        "jungle": "C"
+      }
+    },
+    {
+      "id": "kaja",
+      "name": "Kaja",
+      "image": "kaja.webp",
+      "roles": {
+        "exp": "D",
+        "roam": "A"
+      }
+    },
+    {
+      "id": "change",
+      "name": "Chang'e",
+      "image": "change.webp",
+      "roles": {
+        "mid": "B",
+        "gold": "D"
+      }
+    },
+    {
+      "id": "hanabi",
+      "name": "Hanabi",
+      "image": "hanabi.webp",
+      "roles": {
+        "gold": "C"
+      }
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "image": "uranus.webp",
+      "roles": {
+        "exp": "S+",
+        "roam": "D"
+      }
+    },
+    {
+      "id": "martis",
+      "name": "Martis",
+      "image": "martis.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "B"
+      }
+    },
+    {
+      "id": "valir",
+      "name": "Valir",
+      "image": "valir.webp",
+      "roles": {
+        "mid": "D"
+      }
+    },
+    {
+      "id": "gusion",
+      "name": "Gusion",
+      "image": "gusion.webp",
+      "roles": {
+        "mid": "C",
+        "jungle": "C"
+      }
+    },
+    {
+      "id": "angela",
+      "name": "Angela",
+      "image": "angela.webp",
+      "roles": {
+        "roam": "S",
+        "mid": "A"
+      }
+    },
+    {
+      "id": "jawhead",
+      "name": "Jawhead",
+      "image": "jawhead.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "D",
+        "roam": "C"
+      }
+    },
+    {
+      "id": "lesley",
+      "name": "Lesley",
+      "image": "lesley.webp",
+      "roles": {
+        "gold": "A"
+      }
+    },
+    {
+      "id": "pharsa",
+      "name": "Pharsa",
+      "image": "pharsa.webp",
+      "roles": {
+        "mid": "S+"
+      }
+    },
+    {
+      "id": "helcurt",
+      "name": "Helcurt",
+      "image": "helcurt.webp",
+      "roles": {
+        "jungle": "B",
+        "roam": "B"
+      }
+    },
+    {
+      "id": "zhask",
+      "name": "Zhask",
+      "image": "zhask.webp",
+      "roles": {
+        "mid": "D"
+      }
+    },
+    {
+      "id": "hylos",
+      "name": "Hylos",
+      "image": "hylos.webp",
+      "roles": {
+        "roam": "S+",
+        "exp": "C"
+      }
+    },
+    {
+      "id": "diggie",
+      "name": "Diggie",
+      "image": "diggie.webp",
+      "roles": {
+        "roam": "S"
+      }
+    },
+    {
+      "id": "lancelot",
+      "name": "Lancelot",
+      "image": "lancelot.webp",
+      "roles": {
+        "jungle": "S+"
+      }
+    },
+    {
+      "id": "odette",
+      "name": "Odette",
+      "image": "odette.webp",
+      "roles": {
+        "mid": "B"
+      }
+    },
+    {
+      "id": "argus",
+      "name": "Argus",
+      "image": "argus.webp",
+      "roles": {
+        "exp": "D",
+        "jungle": "D",
+        "gold": "D"
+      }
+    },
+    {
+      "id": "grock",
+      "name": "Grock",
+      "image": "grock.webp",
+      "roles": {
+        "roam": "S+"
+      }
+    },
+    {
+      "id": "irithel",
+      "name": "Irithel",
+      "image": "irithel.webp",
+      "roles": {
+        "gold": "A"
+      }
+    },
+    {
+      "id": "harley",
+      "name": "Harley",
+      "image": "harley.webp",
+      "roles": {
+        "mid": "C",
+        "jungle": "C"
+      }
+    },
+    {
+      "id": "gatotkaca",
+      "name": "Gatotkaca",
+      "image": "gatotkaca.webp",
+      "roles": {
+        "exp": "A",
+        "roam": "S+"
+      }
+    },
+    {
+      "id": "karrie",
+      "name": "Karrie",
+      "image": "karrie.webp",
+      "roles": {
+        "gold": "S"
+      }
+    },
+    {
+      "id": "roger",
+      "name": "Roger",
+      "image": "roger.webp",
+      "roles": {
+        "exp": "D",
+        "jungle": "C",
+        "gold": "C"
+      }
+    },
+    {
+      "id": "vexana",
+      "name": "Vexana",
+      "image": "vexana.webp",
+      "roles": {
+        "mid": "A"
+      }
+    },
+    {
+      "id": "lapulapu",
+      "name": "Lapu-Lapu",
+      "image": "lapulapu.webp",
+      "roles": {
+        "exp": "S+",
+        "gold": "A"
+      }
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "image": "aurora.webp",
+      "roles": {
+        "mid": "S"
+      }
+    },
+    {
+      "id": "hilda",
+      "name": "Hilda",
+      "image": "hilda.webp",
+      "roles": {
+        "exp": "S",
+        "roam": "S+"
+      }
+    },
+    {
+      "id": "estes",
+      "name": "Estes",
+      "image": "estes.webp",
+      "roles": {
+        "roam": "S"
+      }
+    },
+    {
+      "id": "cyclops",
+      "name": "Cyclops",
+      "image": "cyclops.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "C"
+      }
+    },
+    {
+      "id": "johnson",
+      "name": "Johnson",
+      "image": "johnson.webp",
+      "roles": {
+        "roam": "B"
+      }
+    },
+    {
+      "id": "moskov",
+      "name": "Moskov",
+      "image": "moskov.webp",
+      "roles": {
+        "gold": "S"
+      }
+    },
+    {
+      "id": "yisunshin",
+      "name": "Yi Sun-shin",
+      "image": "yisunshin.webp",
+      "roles": {
+        "jungle": "S+"
+      }
+    },
+    {
+      "id": "ruby",
+      "name": "Ruby",
+      "image": "ruby.webp",
+      "roles": {
+        "exp": "S",
+        "gold": "S"
+      }
+    },
+    {
+      "id": "alpha",
+      "name": "Alpha",
+      "image": "alpha.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "B"
+      }
+    },
+    {
+      "id": "sun",
+      "name": "Sun",
+      "image": "sun.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "C",
+        "gold": "C"
+      }
+    },
+    {
+      "id": "chou",
+      "name": "Chou",
+      "image": "chou.webp",
+      "roles": {
+        "roam": "S+",
+        "gold": "C",
+        "exp": "B"
+      }
+    },
+    {
+      "id": "kagura",
+      "name": "Kagura",
+      "image": "kagura.webp",
+      "roles": {
+        "mid": "A"
+      }
+    },
+    {
+      "id": "natalia",
+      "name": "Natalia",
+      "image": "natalia.webp",
+      "roles": {
+        "jungle": "D",
+        "roam": "C"
+      }
+    },
+    {
+      "id": "gord",
+      "name": "Gord",
+      "image": "gord.webp",
+      "roles": {
+        "mid": "B"
+      }
+    },
+    {
+      "id": "freya",
+      "name": "Freya",
+      "image": "freya.webp",
+      "roles": {
+        "exp": "B",
+        "gold": "B",
+        "jungle": "B"
+      }
+    },
+    {
+      "id": "hayabusa",
+      "name": "Hayabusa",
+      "image": "hayabusa.webp",
+      "roles": {
+        "jungle": "S"
+      }
+    },
+    {
+      "id": "lolita",
+      "name": "Lolita",
+      "image": "lolita.webp",
+      "roles": {
+        "roam": "A"
+      }
+    },
+    {
+      "id": "minotaur",
+      "name": "Minotaur",
+      "image": "minotaur.webp",
+      "roles": {
+        "roam": "A"
+      }
+    },
+    {
+      "id": "layla",
+      "name": "Layla",
+      "image": "layla.webp",
+      "roles": {
+        "gold": "B"
+      }
+    },
+    {
+      "id": "fanny",
+      "name": "Fanny",
+      "image": "fanny.webp",
+      "roles": {
+        "jungle": "S"
+      }
+    },
+    {
+      "id": "zilong",
+      "name": "Zilong",
+      "image": "zilong.webp",
+      "roles": {
+        "exp": "D",
+        "gold": "C",
+        "jungle": "D"
+      }
+    },
+    {
+      "id": "eudora",
+      "name": "Eudora",
+      "image": "eudora.webp",
+      "roles": {
+        "mid": "D"
+      }
+    },
+    {
+      "id": "rafaela",
+      "name": "Rafaela",
+      "image": "rafaela.webp",
+      "roles": {
+        "roam": "A"
+      }
+    },
+    {
+      "id": "clint",
+      "name": "Clint",
+      "image": "clint.webp",
+      "roles": {
+        "gold": "B"
+      }
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "image": "bruno.webp",
+      "roles": {
+        "gold": "S"
+      }
+    },
+    {
+      "id": "bane",
+      "name": "Bane",
+      "image": "bane.webp",
+      "roles": {
+        "exp": "B",
+        "mid": "C",
+        "gold": "B",
+        "jungle": "B"
+      }
+    },
+    {
+      "id": "franco",
+      "name": "Franco",
+      "image": "franco.webp",
+      "roles": {
+        "roam": "S"
+      }
+    },
+    {
+      "id": "akai",
+      "name": "Akai",
+      "image": "akai.webp",
+      "roles": {
+        "roam": "A",
+        "jungle": "S"
+      }
+    },
+    {
+      "id": "karina",
+      "name": "Karina",
+      "image": "karina.webp",
+      "roles": {
+        "jungle": "B"
+      }
+    },
+    {
+      "id": "alucard",
+      "name": "Alucard",
+      "image": "alucard.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "A"
+      }
+    },
+    {
+      "id": "tigreal",
+      "name": "Tigreal",
+      "image": "tigreal.webp",
+      "roles": {
+        "roam": "S"
+      }
+    },
+    {
+      "id": "nana",
+      "name": "Nana",
+      "image": "nana.webp",
+      "roles": {
+        "mid": "D"
+      }
+    },
+    {
+      "id": "alice",
+      "name": "Alice",
+      "image": "alice.webp",
+      "roles": {
+        "exp": "S"
+      }
+    },
+    {
+      "id": "saber",
+      "name": "Saber",
+      "image": "saber.webp",
+      "roles": {
+        "jungle": "D",
+        "roam": "D"
+      }
+    },
+    {
+      "id": "balmond",
+      "name": "Balmond",
+      "image": "balmond.webp",
+      "roles": {
+        "exp": "C",
+        "jungle": "B"
+      }
+    },
+    {
+      "id": "miya",
+      "name": "Miya",
+      "image": "miya.webp",
+      "roles": {
+        "gold": "B"
+      }
+    }
+  ]
+}
