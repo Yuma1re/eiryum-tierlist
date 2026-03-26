@@ -86,10 +86,3 @@ searchText=e.target.value.toLowerCase()
 
 render()
 
-})container.appendChild(tierRow)
-
-})
-
-}
-
-loadData()
