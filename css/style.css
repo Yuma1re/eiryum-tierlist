@@ -1,108 +1,155 @@
+:root{
+
+--bg-main:#020617;
+--bg-card:#0f172a;
+--bg-tier:#111827;
+
+--text-main:#f8fafc;
+--text-muted:#94a3b8;
+
+--accent:#38bdf8;
+--border:#334155;
+
+}
+
 body{
-  margin:0;
-  font-family:system-ui;
-  background: radial-gradient(circle at top,#1e293b,#020617);
-  color:var(--text-main);
+margin:0;
+font-family:system-ui;
+background:radial-gradient(circle at top,#1e293b,#020617);
+color:var(--text-main);
 }
 
 .container{
-  max-width:1100px;
-  margin:auto;
-  padding:30px;
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
 }
 
 .title{
-  font-size:36px;
-  font-weight:bold;
-  text-align:center;
-  margin-bottom:30px;
-  letter-spacing:1px;
-}
-
-h1{
-
 text-align:center;
-margin-bottom:5px;
-
+font-size:36px;
+margin-bottom:30px;
 }
 
-#patch{
-
-text-align:center;
-color:#94a3b8;
-margin-bottom:20px;
-
+.controls{
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-bottom:25px;
 }
 
-#filters{
+#search{
+padding:12px;
+border-radius:8px;
+border:1px solid var(--border);
+background:var(--bg-card);
+color:white;
+}
 
+.roles{
 display:flex;
 gap:10px;
-justify-content:center;
-margin-bottom:30px;
 flex-wrap:wrap;
-
 }
 
-.filter-btn{
-
-padding:6px 14px;
+.roles button{
+padding:8px 16px;
 border:none;
-background:#1e293b;
+border-radius:8px;
+background:var(--bg-card);
 color:white;
-border-radius:6px;
 cursor:pointer;
-
 }
 
-.filter-btn:hover{
-
-background:#334155;
-
-}
-
-.tier{
-
-display:flex;
-margin-bottom:12px;
-align-items:center;
-
+.roles button.active{
+background:var(--accent);
+color:black;
 }
 
 .tier-row{
-  display:flex;
-  margin-bottom:10px;
-  border-radius:10px;
-  overflow:hidden;
-  border:1px solid var(--border);
+display:flex;
+margin-bottom:10px;
+border-radius:10px;
+overflow:hidden;
+border:1px solid var(--border);
 }
 
 .tier-label{
-  width:90px;
-  font-weight:bold;
-  font-size:22px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+width:80px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+font-size:20px;
 }
 
 .tier-heroes{
-  flex:1;
-  display:flex;
-  gap:8px;
-  padding:10px;
-  background:var(--bg-tier);
-  flex-wrap:wrap;
+flex:1;
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+padding:10px;
+background:var(--bg-tier);
 }
 
 .hero{
-  width:70px;
-  height:70px;
-  border-radius:10px;
-  overflow:hidden;
-  border:2px solid var(--border);
-  transition:.2s;
+width:70px;
+height:70px;
+border-radius:8px;
+overflow:hidden;
+border:2px solid var(--border);
+position:relative;
+transition:0.2s;
 }
+
+.hero img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.hero:hover{
+transform:scale(1.1);
+border-color:var(--accent);
+}
+
+.tooltip{
+position:absolute;
+bottom:75px;
+left:50%;
+transform:translateX(-50%);
+background:black;
+padding:6px 10px;
+font-size:12px;
+border-radius:6px;
+white-space:nowrap;
+display:none;
+}
+
+.hero:hover .tooltip{
+display:block;
+}
+
+.tier-Splus{background:#ff4d4f;}
+.tier-S{background:#ff7a45;}
+.tier-A{background:#facc15;}
+.tier-B{background:#4ade80;}
+.tier-C{background:#60a5fa;}
+.tier-D{background:#a78bfa;}
+
+@media(max-width:700px){
+
+.hero{
+width:55px;
+height:55px;
+}
+
+.tier-label{
+width:60px;
+font-size:16px;
+}
+
+}}
 
 .hero img{
   width:100%;
