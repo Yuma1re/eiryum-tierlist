@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile Legends Tier List</title>
 
-<title>Eiryum MLBB Tier List</title>
-
-<link rel="stylesheet" href="css/style.css">
-
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <div class="container">
 
-<h1 id="title">Tier List</h1>
+<img src="data/mlbb.svg" class="logo">
+<h1 class="title">Mobile Legends Tier List</h1>
 
-<p id="patch"></p>
+<div class="controls">
 
-<div id="filters"></div>
+<input type="text" id="search" placeholder="Search hero...">
 
-<div id="tiers"></div>
+<div class="roles">
+<button data-role="all" class="active">ALL</button>
+<button data-role="exp">EXP</button>
+<button data-role="gold">GOLD</button>
+<button data-role="mid">MID</button>
+<button data-role="jungle">JUNGLE</button>
+<button data-role="roam">ROAM</button>
+</div>
 
 </div>
 
-<script src="js/main.js"></script>
+<div id="tierlist"></div>
 
+</div>
+
+<script src="script.js"></script>
 </body>
-
 </html>
