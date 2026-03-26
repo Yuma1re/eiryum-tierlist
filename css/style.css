@@ -1,13 +1,8 @@
-.hero{
-
-border-radius:8px;
-cursor:pointer;
-transition:0.2s;
-
-}
-
-.hero:hover{
-
-transform:scale(1.1);
-
-}
+.filter-btn {
+  --fill: #ecfeff;}
+.dark .filter-btn {
+  --fill: #155E75;}
+.filter-btn.active {
+  --fill: #A5F3FC;}
+.dark .filter-btn.active{
+  --fill: #0891B2;}
