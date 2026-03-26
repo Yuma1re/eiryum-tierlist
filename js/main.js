@@ -4,7 +4,7 @@ let searchText=""
 
 const tierlist=document.getElementById("tierlist")
 
-fetch("../data/heroes.json")
+fetch("data/heroes.json")
 .then(res=>res.json())
 .then(data=>{
 
@@ -45,7 +45,7 @@ const card=document.createElement("div")
 card.className="hero"
 
 card.innerHTML=`
-<img src="../assets/heroes/${hero.image}">
+<img src="assets/heroes/${hero.image}">
 <div class="tooltip">${hero.name} (${role})</div>
 `
 
