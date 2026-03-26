@@ -145,7 +145,7 @@ display:block;
 
 .hero{
 width:55px;
-height:55px;
+height:auto;
 }
 
 .tier-label{
