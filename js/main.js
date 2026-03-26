@@ -45,7 +45,7 @@ const card=document.createElement("div")
 card.className="hero"
 
 card.innerHTML=`
-<img src="images/${hero.image}">
+<img src="../assets/heroes/${hero.image}">
 <div class="tooltip">${hero.name} (${role})</div>
 `
 
