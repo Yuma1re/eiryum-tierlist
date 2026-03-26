@@ -20,27 +20,225 @@
 
 <header id="header"></header>
 
-<main class="pt-28 pb-20 max-w-[480px] mx-auto px-3">
+<main class="pt-[100px] pb-24 max-w-[480px] mx-auto px-3">
 
-<section class="text-center mb-6">
+  <!-- PAGE TITLE -->
+  <section class="text-center items-center justify-center mb-6">
+    <img src="assets/img/mlbb.svg" class=" w-[200px] mx-auto">
+    <p class="text-sm text-cyan-500 dark:text-cyan-400">
+      Patch 1.9.12
+    </p>
+  </section>
+  
+  <!-- WRAPER FILTER BAR -->  
+<div class="relative flex justify-center mb-6">
+  <!-- ELONGATED BACKGROUND -->  
+  <svg viewBox="0 0 515 60"  
+       class="h-[40px] text-white dark:text-cyan-950">  
+    <polygon  
+      points="20,5 495,5 510,30 495,55 20,55 5,30"  
+      fill="currentColor"  
+      stroke="#06b6d4"  
+      stroke-width="1"  
+      stroke-linejoin="round"  
+    />  
+  </svg>  
+  
+  <!-- FILTER BAR -->  
+  <div class="absolute inset-0 flex items-center justify-center gap-0" id="filterBar">  
+  
+  <!-- All -->  
+<button class="filter-item p-0 bg-transparent" data-role="all">  
+<svg viewBox="0 0 130 60"  
+      xmlns="http://www.w3.org/2000/svg"  
+      style="overflow: visible"  
+class="filter-btn h-[28px]">  
+  <polygon  
+    points="20,5 140,5 110,55 20,55 5,30"  
+    fill="var(--fill)"  
+    stroke="#06b6d4"  
+    stroke-width="1"  
+    stroke-linejoin="round"/>  
+  <text  class="text-cyan-500 dark:text-cyan-300"
+      x="70"  
+      y="40"  
+      text-anchor="middle"  
+      font-size="28"  
+      font-weight="600"  
+      fill="currentColor"  
+      style="pointer-events:none">  
+      All  
+    </text>  
+</svg>  
+</button>  
 
-<img src="assets/img/mlbb/mlbb.svg" class="w-[200px] mx-auto">
+  <!-- Gold -->  
+<button class="filter-item p-0 bg-transparent" data-role="gold">  
+<svg viewBox="15 0 115 60"   
+      xmlns="http://www.w3.org/2000/svg"  
+      style="overflow: visible"  
+class="filter-btn h-[28px]">  
+  <polygon  
+    points="30,5 140,5 110,55 0,55"  
+    fill="var(--fill)"  
+    stroke="#06b6d4"  
+    stroke-width="1"  
+    stroke-linejoin="round"/>  
+  <text  class="text-cyan-500 dark:text-cyan-300"
+      x="70"  
+      y="40"  
+      text-anchor="middle"  
+      font-size="28"  
+      font-weight="600"  
+      fill="currentColor"  
+      style="pointer-events:none">  
+      Gold  
+    </text>  
+</svg>  
+</button>  
 
-<p class="text-sm text-cyan-500 dark:text-cyan-400">
-Patch 1.9.12
-</p>
+  <!-- Roam -->  
+<button class="filter-item p-0 bg-transparent" data-role="roam">  
+<svg viewBox="15 0 115 60"   
+      xmlns="http://www.w3.org/2000/svg"  
+      style="overflow: visible"  
+class="filter-btn h-[28px]">  
+  <polygon  
+    points="30,5 140,5 110,55 0,55"  
+    fill="var(--fill)"  
+    stroke="#06b6d4"  
+    stroke-width="1"  
+    stroke-linejoin="round"/>  
+  <text  class="text-cyan-500 dark:text-cyan-300"
+      x="70"  
+      y="40"  
+      text-anchor="middle"  
+      font-size="28"  
+      font-weight="600"  
+      fill="currentColor"  
+      style="pointer-events:none">  
+      Roam
+    </text>  
+</svg>  
+</button>  
 
-</section>
+  <!-- Mid -->  
+<button class="filter-item p-0 bg-transparent" data-role="mid">  
+<svg viewBox="15 0 115 60"   
+      xmlns="http://www.w3.org/2000/svg"  
+      style="overflow: visible"  
+class="filter-btn h-[28px]">  
+  <polygon  
+    points="30,5 140,5 110,55 0,55"  
+    fill="var(--fill)"  
+    stroke="#06b6d4"  
+    stroke-width="1"  
+    stroke-linejoin="round"/>  
+  <text  class="text-cyan-500 dark:text-cyan-300"
+      x="70"  
+      y="40"  
+      text-anchor="middle"  
+      font-size="28"  
+      font-weight="600"  
+      fill="currentColor"  
+      style="pointer-events:none">  
+      Mid
+    </text>  
+</svg>  
+</button>  
+  
+  <!-- Jungle -->  
+<button class="filter-item p-0 bg-transparent" data-role="jungle">  
+<svg viewBox="15 0 115 60"   
+      xmlns="http://www.w3.org/2000/svg"  
+      style="overflow: visible"  
+class="filter-btn h-[28px]">  
+  <polygon  
+    points="30,5 140,5 110,55 0,55"  
+    fill="var(--fill)"  
+    stroke="#06b6d4"  
+    stroke-width="1"  
+    stroke-linejoin="round"/>  
+  <text  class="text-cyan-500 dark:text-cyan-300"
+      x="70"  
+      y="40"  
+      text-anchor="middle"  
+      font-size="28"  
+      font-weight="600"  
+      fill="currentColor"  
+      style="pointer-events:none">  
+      Jungle
+    </text>  
+</svg>  
+</button>  
+  
+  <!-- Exp -->  
+<button class="filter-item p-0 bg-transparent" data-role="exp">  
+<svg viewBox="15 0 115 60"   
+      xmlns="http://www.w3.org/2000/svg"  
+      style="overflow: visible"  
+class="filter-btn h-[28px]">  
+  <polygon  
+    points="30,5 110,5 125,30 110,55 0,55"  
+    fill="var(--fill)"  
+    stroke="#06b6d4"  
+    stroke-width="1"  
+    stroke-linejoin="round"/>  
+  <text class="text-cyan-500 dark:text-cyan-300"
+      x="70"  
+      y="40"  
+      text-anchor="middle"  
+      font-size="28"  
+      font-weight="600"  
+      fill="currentColor"  
+      style="pointer-events:none">  
+      Exp  
+    </text>  
+</svg>  
+</button>  
+</div>  
+</div>
 
-<section id="filterBar"></section>
+  <!-- TIERS SECTION -->  
+<div id="tiers">
+  
+  <section class="tier-section" data-tier="S+">
+    <div class="tier-grid grid grid-cols-6 sm:grid-cols-12 gap-2 pl-16 pr-5"></div>
+  </section>
+  
+  <section class="tier-section" data-tier="S">
+    <div class="tier-grid grid grid-cols-6 sm:grid-cols-12 gap-2 pl-16 pr-5"></div>
+  </section>
+  
+  <section class="tier-section" data-tier="A">
+    <div class="tier-grid grid grid-cols-6 sm:grid-cols-12 gap-2 pl-16 pr-5"></div>
+  </section>
+  
+  <section class="tier-section" data-tier="B">
+    <div class="tier-grid grid grid-cols-6 sm:grid-cols-12 gap-2 pl-16 pr-5"></div>
+  </section>
+  
+  <section class="tier-section" data-tier="C">
+    <div class="tier-grid grid grid-cols-6 sm:grid-cols-12 gap-2 pl-16 pr-5"></div>
+  </section>
+  
+  <section class="tier-section" data-tier="D">
+    <div class="tier-grid grid grid-cols-6 sm:grid-cols-12 gap-2 pl-16 pr-5"></div>
+  </section>
+  
+</div>
 
-<section id="tiers"></section>
+      <!-- FOOTER -->
+  <footer class="text-center text-xs text-cyan-500 dark:text-cyan-400 mt-10">
+    Updated 21/12/2025
+    <div class="flex justify-center gap-1 mt-1">
+      <span class="w-1.5 h-1.5 bg-cyan-400 rounded-full"></span>
+      <span class="w-1.5 h-1.5 bg-cyan-300 rounded-full"></span>
+      <span class="w-1.5 h-1.5 bg-cyan-200 rounded-full"></span>
+    </div>
+  </footer>
 
-<footer class="text-center text-xs text-cyan-500 dark:text-cyan-400 mt-10">
-Updated 22/03/2026
-</footer>
-
-</main>
+</main> 
 
 <script type="module" src="js/main.js"></script>
 
