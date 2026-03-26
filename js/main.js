@@ -4,7 +4,7 @@ let searchText=""
 
 const tierlist=document.getElementById("tierlist")
 
-fetch("data/heroes.json")
+fetch("../data/heroes.json")
 .then(res=>res.json())
 .then(data=>{
 
