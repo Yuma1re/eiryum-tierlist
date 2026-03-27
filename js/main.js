@@ -9,6 +9,33 @@ fetch("data/heroes.json")
 .then(data=>{
 
 heroesData=data
+
+const tierPriority = {
+"S+":6,
+"S":5,
+"A":4,
+"B":3,
+"C":2,
+"D":1
+}
+
+function getHighestTier(hero){
+
+let highest = null
+
+for(const role in hero.roles){
+
+const tier = hero.roles[role]
+
+if(!highest || tierPriority[tier] > tierPriority[highest]){
+highest = tier
+}
+
+}
+
+return highest
+}
+
 render()
 
 })
@@ -33,9 +60,33 @@ heroes.className="tier-heroes"
 
 heroesData.heroes.forEach(hero=>{
 
+// FILTER ALL
+if(selectedRole=="all"){
+
+const highestTier = getHighestTier(hero)
+
+if(highestTier != tier) return
+
+if(searchText && !hero.name.toLowerCase().includes(searchText)) return
+
+const card=document.createElement("div")
+card.className="hero"
+
+card.innerHTML=`
+<img src="assets/heroes/${hero.image}">
+<div class="tooltip">${hero.name}</div>
+`
+
+heroes.appendChild(card)
+
+}
+
+// FILTER ROLE
+else{
+
 for(const role in hero.roles){
 
-if(selectedRole!="all" && role!=selectedRole) continue
+if(role!=selectedRole) continue
 
 if(hero.roles[role]!=tier) continue
 
@@ -53,6 +104,7 @@ heroes.appendChild(card)
 
 }
 
+}
 })
 
 row.appendChild(label)
