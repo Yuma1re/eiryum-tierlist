@@ -96,7 +96,7 @@ card.className="hero"
 
 card.innerHTML=`
 <img src="assets/heroes/${hero.image}">
-<div class="tooltip">${hero.name} (${role})</div>
+<div class="tooltip">${hero.name}</div>
 `
 
 heroes.appendChild(card)
