@@ -2,7 +2,7 @@
   "meta": {
     "game": "Mobile Legends",
     "patch": "1.9.12",
-    "updated_at": "27-12-2025"
+    "updated_at": "27-03-2026"
   },
 
   "tiers": ["S+", "S", "A", "B", "C", "D"],
@@ -11,11 +11,19 @@
 
   "heroes": [
     {
+      "id": "marcel",
+      "name": "Marcel",
+      "image": "marcel.webp",
+      "roles": {
+        "roam": "S+"
+      }
+    },
+    {
       "id": "sora",
       "name": "Sora",
       "image": "sora.webp",
       "roles": {
-        "exp": "A"
+        "exp": "S+"
       }
     },
     {
