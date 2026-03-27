@@ -139,12 +139,12 @@ display:none;
 display:block;
 }
 
-.tier-Splus{background:#ff4d4f;}
-.tier-S{background:#ff7a45;}
-.tier-A{background:#facc15;}
-.tier-B{background:#4ade80;}
-.tier-C{background:#60a5fa;}
-.tier-D{background:#a78bfa;}
+.tier-Splus { background:#FF4444; }
+.tier-S { background:#FF8000; }
+.tier-A { background:#A335EE; }
+.tier-B { background:#0070DD; }
+.tier-C { background:#1EFF00; }
+.tier-D { background:#FFFFFF; }
 
 @media(max-width:700px){
 
@@ -171,12 +171,12 @@ font-size:16px;
   border-color:var(--accent);
 }
 
-.tier-Splus { background:#ff4d4f; }
-.tier-S { background:#ff7a45; }
-.tier-A { background:#facc15; }
-.tier-B { background:#4ade80; }
-.tier-C { background:#60a5fa; }
-.tier-D { background:#a78bfa; }
+.tier-Splus { background:#FF4444; }
+.tier-S { background:#FF8000; }
+.tier-A { background:#A335EE; }
+.tier-B { background:#0070DD; }
+.tier-C { background:#1EFF00; }
+.tier-D { background:#FFFFFF; }
 
 :root{
   --bg-main: #0f172a;
