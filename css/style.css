@@ -139,12 +139,12 @@ display:none;
 display:block;
 }
 
-.tier-Splus { background:#FF4444; }
-.tier-S { background:#FF8000; }
-.tier-A { background:#A335EE; }
-.tier-B { background:#0070DD; }
-.tier-C { background:#1EFF00; }
-.tier-D { background:#FFFFFF; }
+.tier-Splus { background:#FF7F7F; }
+.tier-S { background:#FFBF7F; }
+.tier-A { background:#FFFF7F; }
+.tier-B { background:#7FFF7F; }
+.tier-C { background:#7FBFFF; }
+.tier-D { background:#7F7FFF; }
 
 @media(max-width:700px){
 
@@ -171,12 +171,12 @@ font-size:16px;
   border-color:var(--accent);
 }
 
-.tier-Splus { background:#FF4444; }
-.tier-S { background:#FF8000; }
-.tier-A { background:#A335EE; }
-.tier-B { background:#0070DD; }
-.tier-C { background:#1EFF00; }
-.tier-D { background:#FFFFFF; }
+.tier-Splus { background:#FF7F7F; }
+.tier-S { background:#FFBF7F; }
+.tier-A { background:#FFFF7F; }
+.tier-B { background:#7FFF7F; }
+.tier-C { background:#7FBFFF; }
+.tier-D { background:#7F7FFF; }
 
 :root{
   --bg-main: #0f172a;
