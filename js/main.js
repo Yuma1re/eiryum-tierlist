@@ -4,12 +4,6 @@ let searchText=""
 
 const tierlist=document.getElementById("tierlist")
 
-fetch("data/heroes.json")
-.then(res=>res.json())
-.then(data=>{
-
-heroesData=data
-
 const tierPriority = {
 "S+":6,
 "S":5,
@@ -21,14 +15,14 @@ const tierPriority = {
 
 function getHighestTier(hero){
 
-let highest = null
+let highest=null
 
 for(const role in hero.roles){
 
-const tier = hero.roles[role]
+const tier=hero.roles[role]
 
 if(!highest || tierPriority[tier] > tierPriority[highest]){
-highest = tier
+highest=tier
 }
 
 }
@@ -36,6 +30,11 @@ highest = tier
 return highest
 }
 
+fetch("data/heroes.json")
+.then(res=>res.json())
+.then(data=>{
+
+heroesData=data
 render()
 
 })
