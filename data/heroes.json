@@ -1,8 +1,8 @@
 {
   "meta": {
     "game": "Mobile Legends",
-    "patch": "1.9.12",
-    "updated_at": "27-03-2026"
+    "patch": "2.1.61",
+    "updated_at": "28-03-2026"
   },
 
   "tiers": ["S+", "S", "A", "B", "C", "D"],
