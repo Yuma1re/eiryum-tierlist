@@ -889,7 +889,7 @@
       "name": "Chou",
       "image": "chou.webp",
       "roles": {
-        "roam": "C"
+        "roam": "C",
         "exp": "D"
       }
     },
